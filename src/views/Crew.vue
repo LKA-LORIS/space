@@ -1,9 +1,12 @@
 <template>
+<div>
   <h1>Page Crew</h1>
   <div class="crew">
     <h5><span>02</span> meet your crew</h5>  
-    <Carousel :crews="crews" />
+    <Carousel :crews="crews" :interval="3000" controls indicators />
   </div>
+</div>
+  
 </template>
 <script>
 import Carousel from '../components/carousel/Carousel.vue';

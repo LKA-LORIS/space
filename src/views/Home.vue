@@ -1,4 +1,5 @@
 <template>
+<div>
   <div class="home">
     <h5>so, you want to travel to</h5>
     <h1>space</h1>
@@ -6,6 +7,8 @@
       the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
   </div>
   <router-link to="/destination">Explore</router-link>
+</div>
+  
 </template>
 
 <script>
