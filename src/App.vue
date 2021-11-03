@@ -9,5 +9,10 @@
 </template>
 
 <style lang="scss">
+img {
+  display:block;
+  height:auto;
+  max-width: 100%;
+}
 
 </style>
