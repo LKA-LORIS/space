@@ -1,8 +1,6 @@
 <template>
     <transition :name="transitionEffect">
-        <div class="carousel-item" 
-        v-show="currentSlide === index" 
-        @mouseenter="$emit('mouseenter')"
+        <div class="carousel-item" v-show="currentSlide === index" @mouseenter="$emit('mouseenter')"
             @mouseout="$emit('mouseout')">
             <h2>{{crew.poste}}</h2>
             <h1>{{crew.name}}</h1>
