@@ -152,7 +152,7 @@
 
   @media (min-resolution: 192dpi) {
     body {
-      background-image: url('/img/meeting-s@2x.jpg');
+      background-image: url('./assets/background/background-desktop-2x.jpg');
     }
   }
 </style>
